@@ -30,7 +30,7 @@ public class StartJShellExecutable extends AbstractHandler {
 		JShellRuntime jshellRuntime = new JShellRuntime();
 		String osString =QuickShellUtils.getOS();
 		//System.out.println("OS is "+osString);
-		if(osString.equals("windows") || osString.equals("linux"))
+		if(osString.equals("windows"))
 		{
 			String jShellExeutable = QuickShellConfigReader.getJShellExecutable();
 			if(jShellExeutable!=null)
@@ -83,9 +83,9 @@ public class StartJShellExecutable extends AbstractHandler {
 				MessageDialog.openInformation(
 						window.getShell(),
 						"QuickShell Info",
-						"Your operating system ["+osString+ "] is not suppored in this release. You could still use custom command to achieve this functionality."
-						+"\nYou can set custom command for that in eclipse QuickShell configuration."
-						+"You can read more about this on our Github Home page. Complete path : https://github.com/nileshkhaire/QuickShell/wiki/jshell-custom-external-command");
+						"As this is a platform-dependent feature, your operating system ["+osString+ "] does not support in this release. However, you could still use a custom command to achieve this functionality."
+						+"\nGo to QuickShell Settings-> Configuration and add a key JShellExternalCommand={Your custom command}. Add a command which will open jshell executable"
+						+"Read more about this on project Github Home page. Complete path : https://github.com/nileshkhaire/QuickShell/wiki/jshell-custom-external-command");
 			}
 		}
 		return null;

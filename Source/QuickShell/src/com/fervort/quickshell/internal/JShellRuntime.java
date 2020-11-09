@@ -15,9 +15,6 @@ public class JShellRuntime {
 		{
 		    Process process = Runtime.getRuntime().exec("cmd.exe /C start \"jshell powered by QuickShell\" \""+jShellExecutable+"\" ");
 		    //process.exitValue();
-		}else if(osString.equals("linux"))
-		{
-			Process process = Runtime.getRuntime().exec("\""+jShellExecutable+"\" & ");
 		}
 		else
 		{
