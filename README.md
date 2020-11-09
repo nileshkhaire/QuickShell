@@ -11,3 +11,24 @@ There are multiple ways to use QuickShell
 - Click on eclipse menu QuickShell -> Start JShell Executable . This will call jshell executable in separate window. (Note: This is platform dependent feature, if my not be supported on your operating system or it may not work on your operating system) . I have tested on Windows and it is working as expected. I am trying to support other OS in next releases. 
 - Create a file with extension `.jsh`. for example `test.jsh` and right click on it and click on pop up menu QuickShell -> Run JShell Script. 
 - Select your existing code in java ediotr and click on right click menu QuickShell -> Run as JShell script. 
+
+## Usage :
+### Java class lines as jshell script :
+![](Images/ExecuteAsJShellScript.png)
+#### Result
+![](Images/ExecuteAsJShellScriptResult.png)
+
+### Run .jsh (jshell file) :
+![](Images/RunJShellFile.png)
+#### Result
+![](Images/RunJShellFileResult.png)
+
+### Start JShell in Eclipse Terminal :
+![](Images/StartJShellInEclipseTerminal.png)
+#### Result
+![](Images/StartJShellInEclipseTerminalResult.png)
+
+### Start JShell native Executable :
+![](Images/StartJShellExecutable.png)
+#### Result
+![](Images/StartJShellExecutableResult.png)
