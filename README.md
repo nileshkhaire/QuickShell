@@ -10,7 +10,7 @@ QuickShell is an Eclipse plugin to use java jshell inside Eclipse IDE. JDK 9+ is
 
 ## How to use :
 
-### Java class lines as jshell script :
+### 1. Java class lines as jshell script :
 
 Select your existing code in java editor and click on right-click menu QuickShell -> Run as JShell script.
 
@@ -20,7 +20,7 @@ Select your existing code in java editor and click on right-click menu QuickShel
 
 ![](Images/ExecuteAsJShellScriptResult.png)
 
-### Run .jsh (jshell file) :
+### 2. Run .jsh (jshell file) :
 
 Create a file with extension `.jsh`. for example `test.jsh` and right-click on it and click on the pop-up menu QuickShell -> Run JShell Script. Check the screenshot below:
 
@@ -30,7 +30,7 @@ Create a file with extension `.jsh`. for example `test.jsh` and right-click on i
 
 ![](Images/RunJShellFileResult.png)
 
-### Start JShell in Eclipse Terminal :
+### 3. Start JShell in Eclipse Terminal :
 
 Click on eclipse menu QuickShell -> Start JShell in Eclipse Terminal. This will open jshell in eclipse terminal.
 
@@ -40,7 +40,7 @@ Click on eclipse menu QuickShell -> Start JShell in Eclipse Terminal. This will 
 
 ![](Images/StartJShellInEclipseTerminalResult.png)
 
-### Start JShell native Executable :
+### 4. Start JShell native Executable :
 
 Click on eclipse menu QuickShell -> Start JShell Executable. This will call jshell executable in a separate window. (Note: This is a platform-dependent feature it may not be supported on your operating system or it may not work on your operating system. I have tested on Windows and it is working as expected. I am trying to support other OS in next releases. 
 
