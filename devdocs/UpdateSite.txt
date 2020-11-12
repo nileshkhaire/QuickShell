@@ -1,0 +1,2 @@
+https://wiki.eclipse.org/FAQ_How_do_I_create_an_update_site_(site.xml)%3F
+Follow above guide, After Build all , click on Update site project and say export, select General -> Archive file and then unselect .project file and select create only seletec directories

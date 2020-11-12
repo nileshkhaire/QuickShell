@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="QuickShell Update Site" url="https://nileshkhaire.github.io/QuickShell/update">
+      QuickShell is an Eclipse plugin to use java jshell inside the Eclipse IDE.
+   </description>
+   <feature url="features/com.fervort.quickshell.feature_1.0.0.jar" id="com.fervort.quickshell.feature" version="1.0.0">
+      <category name="com.fervort.quickshell"/>
+   </feature>
+   <category-def name="com.fervort.quickshell" label="QuickShell"/>
+</site>
