@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: QuickShell
 Bundle-SymbolicName: com.fervort.quickshell;singleton:=true
-Bundle-Version: 1.0.0.beta
+Bundle-Version: 1.0.0
 Bundle-Activator: com.fervort.quickshell.Activator
 Bundle-Vendor: Fervort.com
 Require-Bundle: org.eclipse.ui,
