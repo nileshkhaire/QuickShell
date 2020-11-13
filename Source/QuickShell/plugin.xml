@@ -132,7 +132,7 @@
 					             <adapt type="org.eclipse.core.resources.IResource">
 						            <or> 
 						               <test property="org.eclipse.core.resources.name" value="*.jsh" />
-						               <test property="org.eclipse.core.resources.name" value="*.snippet" />
+						               <test property="org.eclipse.core.resources.name" value="*.jpage" />
 						             </or>
 					             </adapt>
 					            </iterate>
