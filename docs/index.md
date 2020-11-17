@@ -4,8 +4,7 @@ QuickShell is an Eclipse plugin to use java jshell inside Eclipse IDE. JDK 9+ is
 There are multiple ways to install this plugin:
 
 - Download from Eclipse marketplace:
-
-[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=5295544 "Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client")
+Go to Eclipse menu Help -> Eclipse Marketplace -> write "QuickShell" in find . Select QuickShell and click on install. 
 
 - Install using Eclipse update site: 
 Go to following page and follow instructions: [https://nileshkhaire.github.io/QuickShell/update/]( https://nileshkhaire.github.io/QuickShell/update/) 
