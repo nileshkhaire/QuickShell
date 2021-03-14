@@ -1,4 +1,5 @@
-QuickShell is an Eclipse plugin to use java jshell inside Eclipse IDE. JDK 9+ is not installed on your system? No worries, you can still use QuickShell using external unzipped JDK. So without disturbing your existing project setup, you can use QuickShell. 
+QuickShell is an Eclipse plugin to use java jshell inside Eclipse IDE. 
+JDK 9+ is not installed on your system? No worries, you can still use QuickShell using external unzipped JDK. So without disturbing your existing project setup, you can use QuickShell. 
 
 ## How to setup :
 There are multiple ways to install this plugin:
