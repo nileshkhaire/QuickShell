@@ -1,4 +1,4 @@
-QuickShell is an Eclipse plugin to use java jshell inside Eclipse IDE.   
+QuickShell is an Eclipse plugin to use Java JShell (REPL) inside Eclipse IDE.   
 JDK 9+ is not installed on your system? No worries, you can still use QuickShell using external unzipped JDK. So without disturbing your existing project setup, you can use QuickShell. 
 
 ## How to setup :
@@ -12,6 +12,8 @@ There are multiple ways to install this plugin:
 Go to following page and follow instructions: [https://nileshkhaire.github.io/QuickShell/update/]( https://nileshkhaire.github.io/QuickShell/update/) 
 
 - Download plugin JAR file and put into your Eclipse plugin directory "$ECLIPSE_HOME/plugins" . Restart eclipse.
+
+> Note : QuickShell is depends on Eclipse 'TM Terminal' plugin. If it is already not install in your Eclipse (Press Ctrl+Alt+T to check) , please download from Eclipse Marketplace. Without this plugin some features of QuickShell will not work. [ Check this Question for more ]( https://stackoverflow.com/questions/43623643/how-to-open-terminal-inside-eclipse ) 
 
 ## How to configure :
 
